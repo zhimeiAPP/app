@@ -1,0 +1,56 @@
+body{
+    width:100%;
+    height:100%;
+}
+.yzf-ping{
+    width:100%;
+    height:13.34rem;
+    background-image: url(../img/yzf-img/yemian_02.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.yzf-denglu{
+    width:3.09rem;
+    height:1.12rem;
+    background-image: url(../img/yzf-img/1_07.png);
+    background-size: 100%;
+    position:absolute;
+    left:0.48rem;
+    bottom: 3rem;
+}
+.yzf-zhuce{
+    width:3.09rem;
+    height:1.12rem;
+    background-image: url(../img/yzf-img/1_04.png);
+    background-size: 100%;
+    position:absolute;
+    right:0.48rem;
+    bottom: 3.07rem;
+}
+.yzf-qq{
+    width: 0.77rem;
+    height:0.77rem;
+    background-image: url(../img/yzf-img/1_12.png);
+    background-size: 100%;
+    position:absolute;
+    left:0.68rem;
+    bottom:0.75rem;
+}
+.yzf-weixin{
+    width: 0.77rem;
+    height:0.77rem;
+    background-image: url(../img/yzf-img/1_14.png);
+    background-size: 100%;
+    position:absolute;
+    left:3.38rem;
+    bottom:0.75rem;
+}
+.yzf-weibo{
+    width: 0.77rem;
+    height:0.77rem;
+    background-image: url(../img/yzf-img/1_16.png);
+    background-size: 100%;
+    position:absolute;
+    right:0.68rem;
+    bottom:0.75rem;
+}

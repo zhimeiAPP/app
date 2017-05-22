@@ -1,0 +1,123 @@
+.yzf-yemian{
+    width:100%;
+    height:13.34rem;
+    background-image: url("../img/yzf-img/yemian.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.yzf-man{
+    width:2.06rem;
+    height:2.37rem;
+    background-image: url("../img/yzf-img/man.png");
+    background-size:100%;
+    position:absolute;
+    top:1.5rem;
+    left:50%;
+    margin-left:-1.03rem;
+}
+form{
+    width:6.5rem;
+    height:3.4rem;
+    background:#fff;
+    position:absolute;
+    top:5.12rem;
+    left:50%;
+    margin-left:-3.25rem;
+    border-radius: 0.15rem;
+}
+form .yzf-user{
+    font-size:0.24rem;
+    /*font-family:"宋体";*/
+    position:absolute;
+    top:0.25rem;
+    left:0.4rem;
+    color:#a1a1a1;
+}
+form #user{
+    width:5.45rem;
+    height:0.8rem;
+    border:none;
+    background:#f6f6f6;
+    margin-top:0.1rem;
+    padding-left:0.3rem;
+    border-radius: 5px;
+    font-size:0.24rem;
+    color:#c5c5c4;
+    position:relative;
+}
+form input::-webkit-input-placeholder{ /*WebKit browsers*/
+    color: #C5C5C4;
+    font-size: 0.24rem;
+}
+form .yzf-pass{
+    font-size:0.24rem;
+    margin-top:0.2rem;
+    color:#a1a1a1;
+}
+form #pass{
+    width:5.45rem;
+    height:0.8rem;
+    border:none;
+    background:#f6f6f6;
+    margin-top:0.1rem;
+    padding-left:0.3rem;
+    border-radius: 5px;
+    font-size:0.24rem;
+    color:#c5c5c4;
+    position:relative;
+}
+#submit{
+    width:2.84rem;
+    height:0.95rem;
+    position:absolute;
+    top:4.56rem;
+    left:50%;
+    margin-left:-1.42rem;
+    background:#ffcc00;
+    border-radius:0.55rem;
+    border:none;
+    font-size:0.34rem;
+    color:#fff;
+}
+label{
+    position:relative;
+}
+.yzf-box{
+    width:1.84rem;
+    height:2.07rem;
+    background-image: url("../img/yzf-img/box_03.png");
+    background-size:100%;
+}
+.yzf-box li{
+    width:100%;
+    height:33.33%;
+}
+.yzf-weibo{
+    width:0.36rem;
+    height:0.36rem;
+    background-image: url("../img/yzf-img/WEIBO.png");
+    background-size:100%;
+    float:left;
+    margin-top:0.15rem;
+}
+
+.yzf-qq{
+    width:0.36rem;
+    height:0.36rem;
+    background-image: url("../img/yzf-img/QQ.png");
+    background-size:100%;
+    float:left;
+    margin-top:0.15rem;
+}
+.yzf-weixin{
+    width:0.36rem;
+    height:0.36rem;
+    background-image: url("../img/yzf-img/WEIXIN.png");
+    background-size:100%;
+    float:left;
+    margin-top:0.15rem;
+}
+.yzf-font{
+    margin-top:0.15rem;
+    float:left;
+}

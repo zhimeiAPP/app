@@ -1,0 +1,406 @@
+header{
+    width: 100%;
+    height: 1.65rem;
+    background: #FFD52F;
+    display: flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header .left{
+    width: 0.52rem;
+    height: 0.52rem;
+    /*margin-left: 0.25rem;*/
+    background: url("../img/zjj-img/return.png") no-repeat center center/0.52rem 0.52rem;
+}
+header .middle{
+    /*width: 2.9rem;*/
+    height: 0.4rem;
+    /*margin-left:1.62rem;*/
+    box-sizing: border-box;
+}
+header .middle span{
+    font-size: 16px;
+    color: #fff;
+}
+header .right{
+    width: 0.52rem;
+    height: 0.52rem;
+}
+header .search{
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0 auto;
+    background: url("../img/zjj-img/search.png") no-repeat center center/7.02rem 0.88rem;
+    position: absolute;
+    top: 65px;
+    line-height: 0.80rem;
+    /*padding-left: 0.3rem;*/
+}
+header .search input{
+    width: 7.02rem;
+    height: 0.88rem;
+    outline: none;
+    /*background: none;*/
+    border: 0;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #D8D8D8;
+    background: url("../img/zjj-img/ht.png") no-repeat top 0.2rem right 0.3rem /0.24rem 0.4rem;
+}
+
+/*广告条*/
+.advertisement{
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 1.05rem;
+}
+.advertisement .adverBox{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0 0.25rem;
+    /*margin-top: 1.05rem;*/
+    box-sizing: border-box;
+    background: #FFD52F;
+    position: relative;
+}
+.advertisement .flower{
+    width: 1.5rem;
+    height: 2.08rem;
+    background: url("../img/zjj-img/flower.png") no-repeat center center/1.5rem 2.08rem;
+    position: absolute;
+    top: 3.4rem;
+    left: -0.05rem;
+    /*overflow: hidden;*/
+}
+.advertisement .left{
+    width: 60%;
+    height: 0.96rem;
+    /*background: red;*/
+    float: left;
+    margin-top: 0.27rem;
+}
+.advertisement .left span{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.advertisement .right{
+    width: 38.5%;
+    height: 0.98rem;
+    border-radius: 5px;
+    float: right;
+    margin-top: 0.27rem;
+    /*line-height: 0.96rem;*/
+    background: #fff;
+}
+.advertisement .right img{
+    width: 2.46rem;
+    height: 0.94rem;
+    border-radius: 5px;
+    margin-top: 0.02rem;
+    margin-left: 0.02rem;
+}
+
+/*精品推荐*/
+.boutique{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 1.43rem;
+}
+.boutique > .titleBox{
+    width: 7.02rem;
+    height: 0.75rem;
+    margin: 0 auto;
+    /*background: red;*/
+}
+.boutique .titleBox .circle{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    float: left;
+    background: #00B9FE;
+}
+.boutique .titleBox .title{
+    float: left;
+    width: 2.44rem;
+    height: 0.6rem;
+    margin-left: -0.2rem;
+    margin-top: 0.18rem;
+    /*background: #ccc;*/
+}
+.boutique .titleBox .title span:nth-child(1){
+    color: #FFD52F;
+    font-weight: 600;
+}
+.boutique .titleBox .title span:nth-child(3){
+    color: #828282;
+}
+.boutique .titleBox .title img{
+    width: 0.38rem;
+    height: 0.1rem;
+    margin-bottom: 0.03rem;
+}
+.boutique .titleBox .dashed{
+    float: left;
+    width: 3.3rem;
+    height: 0.02rem;
+    margin-top: 0.56rem;
+}
+.boutique .titleBox .dashed  img{
+    width: 3.3rem;
+    height: 0.02rem;
+}
+.boutique .titleBox .more{
+    float: left;
+    width: 0.75rem;
+    height: 0.3rem;
+    margin-top: 0.46rem;
+    margin-left: 0.1rem;
+}
+.boutique .titleBox .more img{
+    /*float: left;*/
+    width: 0.75rem;
+    height: 0.3rem;
+}
+.boutique .content{
+    width: 7.02rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+.boutique .content .topLeft{
+    display: block;
+    width: 33.3%;
+    height: 2.34rem;
+    background: #FFD52F;
+    float: left;
+    position: relative;
+}
+.boutique .content .topLeft:after{
+    content: '';
+    display: block;
+    border: 8px solid #C5E3EA;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 1.07rem;
+    right: 0;
+}
+.boutique .content .topLeft img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.boutique .content .topRight{
+    display: block;
+    width: 66.67%;
+    height: 2.34rem;
+    float: left;
+    position: relative;
+}
+.boutique .content .topRight:after{
+    content: '';
+    display: block;
+    border: 8px solid #C5E3EA;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 1.07rem;
+    left: 0;
+}
+.boutique .content .topRight img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.boutique .content .midL, .midM, .midR{
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 2.34rem;
+    position: relative;
+}
+.boutique .content .midL:after, .midM:after, .midR:after{
+    content: '';
+    display: block;
+    border: 8px solid #C5E3EA;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    left: 1.07rem;
+    bottom: 0;
+}
+.boutique .content .midL img, .midM img, .midR img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.boutique .content .botL, .botM, .botR{
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 2.34rem;
+    position: relative;
+}
+.boutique .content .botL:after, .botM:after, .botR:after{
+    content: '';
+    display: block;
+    border: 8px solid #C5E3EA;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    left: 1.07rem;
+    top: 0;
+}
+.boutique .content .botL img, .botM img, .botR img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*商品展示*/
+.product{
+   margin-top: 0.65rem;
+}
+.product .contentBox{
+    width: 7.02rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.68rem;
+}
+.product .contentBox ul{
+    width: 100%;
+    height: 100%;
+}
+.product .contentBox ul li{
+    width: 100%;
+    height: 1.66rem;
+    margin-top: 0.56rem;
+}
+.product .contentBox ul li .left{
+    width: 40%;
+    height:100%;
+    float: left;
+    /*background: red;*/
+}
+.product .contentBox ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.product .contentBox ul li  img{
+    width: 100%;
+    height: 100%;
+}
+.product .contentBox ul li .right{
+    padding-left: 5%;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+.product .contentBox ul li .right span{
+    font-size: 10px;
+    color: #969696;
+}
+.product .contentBox ul li .right span:nth-child(2){
+    font-size: 8px;
+    color: #FFD52F;
+    font-weight: bold;
+}
+.product .contentBox ul li .right .name{
+    font-size: 14px;
+    color: #828282;
+    line-height:0.1rem;
+}
+.product .contentBox ul li .right .line{
+
+}
+.product .contentBox ul li .right .line img{
+    width: 3.6rem;
+    height: 1px;
+}
+.product .contentBox ul li .right .name>b{
+    font-size: 14px;
+}
+.product .contentBox ul li .right img{
+    width: 0.28rem;
+    height: 0.08rem;
+    margin-bottom: 0.03rem;
+}
+.product .contentBox ul li .right .price{
+    font-size: 12px;
+    line-height: 0.1rem;
+}
+.product .contentBox ul li .right .price b{
+    font-size: 16px;
+}
+.product .contentBox ul li .right span:last-child{
+    font-size: 10px;
+}
+.product .contentBox ul li .right span:last-child img:nth-child(1){
+    width: 0.2rem;
+    height: 0.13rem;
+    vertical-align: middle;
+}
+.product .contentBox ul li .right span:last-child img:nth-child(2){
+    width: 0.14rem;
+    height: 0.13rem;
+    vertical-align: middle;
+}
+.product .contentBox ul li .right span:last-child img:nth-child(3){
+    width: 0.2rem;
+    height: 0.18rem;
+    vertical-align: middle;
+}
+
+/*刷新加载*/
+.load{
+    width: 3.2rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+.load .left{
+    width: 2.3rem;
+    height: 100%;
+    float: left;
+    font-size: 10px;
+}
+.load .left span{
+    font-size: 10px;
+    color: #B4B4B4;
+}
+.load .left span:nth-child(3){
+    color: #969696;
+}
+.load .left span:last-child{
+    display: inline-block;
+    width: 0.36rem;
+    height: 0.1rem;
+    background: url("../img/zjj-img/y6.png") no-repeat center center/0.36rem 0.1rem;
+}
+.load .right{
+    width: 0.8rem;
+    height: 100%;
+    background: url("../img/zjj-img/load.png") no-repeat center center/0.8rem 0.68rem;
+    margin-left: 0.08rem;
+    box-sizing: border-box;
+    float: left;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/X-logreg.css" />
+	<link rel="stylesheet" href="../css/normalize.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	
+	<script src="../common/js/common.js"></script>
+	<script src="../common/js/hammer.min.js"></script>
+	<script src="../common/js/iscroll.js"></script>
+	<script src="../common/js/jquery.min.js"></script>
+	<script src="../common/js/zepto.min.js"></script>
+	<script src="../js/X-login.js"></script>
+</head>
+<body>
+	<!--注册-->
+	<section class="X-reg">
+		<div class="header">
+			<img src="../img/X-img/X-11.png" alt="" />
+			<span>注册</span>
+		</div>
+		
+		<div class="cons">
+			<img src="../img/X-img/X-12.png" alt="" />
+			<form action="index.php" method="post">
+				<section>
+					<div class="title">
+						<span>帐号</span>
+						<span>NAME</span>
+					</div>
+					<input type="text" placeholder="请输入手机号/邮箱" value="" id="word" name=""/>
+					<img src="../img/X-img/X-16.png" alt="" class="dui"/>
+					<h5>帐号格式错误</h5>
+				</section>
+				<section>
+					<div class="title">
+						<span>密码</span>
+						<span>PASSWORD</span>
+					</div>
+					<div id="app">
+						<div class="input_container">
+						    <input type="password" @input="p_len" v-model="password" placeholder="请输数字字母组合6位密码" value="" id="word" name=""/>
+						    <!--<span v-bind:class="{ valid_password_length: valid_password_length , show_password_length: typed}" class="password_length">{{password_length}}</span>--> 
+							<img src="../img/X-img/X-17.png" alt="" class="yan"/>
+							<h5>密码格式错误</h5>
+						</div>
+				  		<div class="lnu_container">
+				    		<p class="lowp" v-bind:class="{ lovercase_valid: contains_lovercase }"></p>
+				    		<p class="nump" v-bind:class="{ number_valid: contains_number }"></p>
+				    		<p class="upep" v-bind:class="{ uppercase_valid: contains_uppercase }"></p>
+				 	 	</div>
+					</div>
+				</section>
+				<section>
+					<div class="title">
+						<span>再次确认密码</span>
+						<span>PASSWORD AGAIN</span>
+					</div>
+					<input type="password" placeholder="请输数字字母组合6位密码" class="passwordtwo" value="" id="word" name=""/>
+				</section>
+				<section>
+					<img src="../img/X-img/X-13.png" alt="" class="go"/>
+					<input type="submit" name="" id="" value="" class="sub"/>
+				</section>
+			</form>
+		</div>
+	</section>
+	<!--注册-->
+	
+	
+	
+	
+	<!--注册成功-->
+	<section class="X-regsuc">
+		<div class="header">
+			<img src="../img/X-img/X-11.png" alt="" />
+			<span>注册</span>
+		</div>
+		<div class="cons">
+			<img src="../img/X-img/X-14.png" alt="" />
+			<div>
+				<h1>注册成功</h1>
+				<h2>LOGIN WAS SUCCESSFUL</h2>
+				<a href="X-log.html">
+					<img src="../img/X-img/X-15.png" alt="" />
+				</a>
+			</div>
+		</div>
+	</section>
+	<!--注册成功-->
+	<script src="../js/vue.min.js"></script> 
+	<script src="../js/index.js"></script>
+</body>
+</html>

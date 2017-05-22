@@ -1,0 +1,428 @@
+body,html{
+	width: 100%;
+	height:100%;
+	background: #FFF;
+	overflow: hidden;
+}
+/*背景*/
+.X-background{
+	width: 100%;
+	height:5.38rem;
+	overflow: hidden;
+}
+.X-background img{
+	display: block;
+	width: 100%;
+}
+/*背景*/
+
+/*图标*/
+.icon{
+	width:100%;
+	height:1.91rem;
+	position: absolute;
+	top:4.38rem;
+}
+.icon img{
+	display: block;
+	width: 1.91rem;
+	margin: 0 auto;
+}
+/*图标*/
+
+/*最美童装*/
+.child{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+	margin-top: 1.96rem;
+}
+.child h1{
+	width: 100%;
+	color: #E95447;
+	font-size: 0.44rem;
+	text-align: center;
+}
+.child h2{
+	width: 100%;
+	color: #FCC689;
+	font-size: 0.2932rem;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+/*最美童装*/
+
+
+/*登录注册*/
+.logreg{
+	width: 100%;
+	height:1.34rem;
+	margin-top: 0.7rem;
+}
+.logreg .login{
+	width: 50%;
+	height:1.34rem;
+	float:left;
+}
+.logreg .login img{
+	display: block;
+	width: 3.34rem;
+	height:1.34rem;
+	margin-left: 0.22rem;
+}
+.logreg .reg{
+	width: 50%;
+	height:1.34rem;
+	float:left;
+}
+.logreg .reg img{
+	display: block;
+	width: 3.37rem;
+	height:1.34rem;
+	margin-left: 0.18rem;
+}
+/*登录注册*/
+
+/*第三方登录*/
+.third_part{
+	width: 100%;
+	height: 0.3rem;
+	margin-top: 0.3rem;
+	position: relative;
+}
+.third_part img:nth-child(1){
+	display: block;
+	float:left;
+	width:2.31rem;
+	height: 0.23rem;
+	margin-left: 0.24rem;
+}
+.third_part img:nth-child(2){
+	display: block;
+	float:right;
+	width:2.31rem;
+	height: 0.23rem;
+	margin-right: 0.24rem;
+}
+.third_part span{
+	display: block;
+	width:100%;
+	height: 0.3rem;
+	position: absolute;
+	top:0;
+	text-align: center;
+	line-height: 0.3rem;
+	font-size: 0.24rem;
+	color: #7C7C7C;
+}
+.third_content{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 0.4rem;
+}
+.third_content .left{
+	width: 33.333%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.third_content .left img{
+	display: block;
+	widows: 0.76rem;
+	height: 0.77rem;
+	margin-left: 0.69rem;
+}
+.third_content .medium{
+	width: 33.333%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.third_content .medium img{
+	display: block;
+	widows: 0.76rem;
+	height: 0.77rem;
+	margin: 0 auto;
+}
+.third_content .right{
+	width: 33.333%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.third_content .right img{
+	display: block;
+	float: right;
+	widows: 0.78rem;
+	height: 0.77rem;
+	margin-right: 0.69rem;
+}
+/*第三方登录*/
+
+
+
+/*登录*/
+.X-login{
+	width: 100%;
+	height: 100%;
+}
+.X-login > img{
+	display: block;
+	width: 100%;
+}
+.X-login form{
+	width: 6rem;
+	height: 3rem;
+	position: absolute;
+	left: 0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+}
+.X-login form > div{
+	margin-top: 0.24rem;
+}
+.X-login form > div span:nth-child(1){
+	font-size: 0.24rem;
+	color:#B1B1B1;
+}
+.X-login form > div span:nth-child(2){
+	font-size: 0.24rem;
+	color:#B2B2B2;
+	margin-left: 0.2rem;
+}
+.X-login form input{
+	width: 5.75rem;
+	height: 0.83rem;
+	border: 0;
+	background: #F6F6F6;
+	border-radius: 5px;
+	font-size: 0.24rem;
+	color:#CECECD;
+	text-indent: 10px;
+	margin-top: 0.08rem;
+}
+.X-login form img{
+	display: block;
+	width: 3.29rem;
+	height: 1.26rem;
+	margin: 0 auto;
+	margin-top: 1.45rem;
+}
+.X-login form section{
+	position: relative;
+}
+.X-login form section input.log{
+	display: block;
+	position:absolute;
+	background: rgba(0,0,0,0);
+	left:0;
+	top:-0.05rem;
+	font-size: 0.34rem;
+	color:#FFF;
+}
+/*登录*/
+
+
+/*注册*/
+.X-reg{
+	width: 100%;
+	height: 100%;
+	background: #FFD531;
+}
+.X-reg .header{
+	width: 100%;
+	height: 1.14rem;
+	overflow: hidden;
+	position: relative;
+}
+.X-reg .header img{
+	display: block;
+	width: 0.52rem;
+	height: 0.52rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0.24em;
+	z-index: 10;
+}
+.X-reg .header span{
+	position: absolute;
+	left:0;
+	top:0.25rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.44rem;
+	color: #FFF;
+	z-index: 1;
+}
+.X-reg .cons{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.X-reg .cons > img{
+	display: block;
+	width: 100%;
+	height: 10.5rem;
+	margin-top: 0.5rem;
+}
+.X-reg .cons form{
+	position: absolute;
+	left:1.95rem;
+	top:4.48rem;
+}
+.X-reg .cons form section:nth-child(1) div.title{
+	margin-top: 0.24rem;
+}
+.X-reg .cons form section:nth-child(2) div.title{
+	margin-top: 0.24rem;
+}
+.X-reg .cons form section:nth-child(3) div.title{
+	margin-top: 0.1rem;
+}
+.X-reg .cons form .title span:nth-child(1){
+	font-size: 0.24rem;
+	color:#ACACAC;
+}
+.X-reg .cons form .title span:nth-child(2){
+	font-size: 0.24rem;
+	color:#737373;
+	margin-left: 0.1rem;
+}
+.X-reg .cons form section input{
+	width: 4.78rem;
+	height: 0.83rem;
+	border: 0;
+	background: #F6F6F6;
+	border-radius: 6px;
+	font-size: 0.24rem;
+	color:#9F9F9F;
+	text-indent: 10px;
+	margin-top: 0.02rem;
+	outline: none;
+}
+
+.X-reg .cons form input[type=text]:focus{
+  border: 0.01rem solid #FFE789;
+  background: #FFF;
+  color:#000;
+}
+.X-reg .cons form input[type=password]:focus{
+  border: 0.01rem solid #F3F3F3;
+  background: #FFF;
+  color:#000;
+}
+.X-reg .cons form section{
+	position: relative;
+}
+.X-reg .cons form section .go{
+	display: block;
+	width: 1.4rem;
+	height: 1.32rem;
+	margin-left: 3.2rem;
+}
+.X-reg .cons form section .dui{
+	display: block;
+	width: 0.33rem;
+	height: 0.22rem;
+	position:absolute;
+	right:0.24rem;
+	top:0.7rem;
+	display: none;
+}
+.X-reg .cons form section .yan{
+	display: block;
+	width: 0.36rem;
+	height: 0.2rem;
+	position:absolute;
+	right:0.24rem;
+	top:0.4rem;
+	display: none;
+}
+.X-reg .cons form section input.sub{
+	width: 1rem;
+	height: 1rem;
+	background: rgba(0,0,0,0);
+	position: absolute;
+	left: 3.4rem;
+	top: 0;
+}
+.X-reg .cons form section h5{
+	font-size:0.2rem;
+	color:#ACACAC;
+	display: none;
+}
+.X-reg .cons form section input::-webkit-input-placeholder{
+	color:#D2D2D1;
+}
+/*注册*/
+
+/*注册成功*/
+.X-regsuc{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	background: #FFD531;
+	display: none;
+}
+.X-regsuc .header{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.X-regsuc .header img{
+	display: block;
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.25rem;
+	margin-left: 0.24em;
+}
+.X-regsuc .header span{
+	position: absolute;
+	left:0;
+	top:0.25rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.44rem;
+	color: #FFF;
+}
+.X-regsuc .cons{
+	width: 100%;
+	height: auto;
+}
+.X-regsuc .cons > img{
+	width: 100%;
+	margin-top:1rem;
+} 
+.X-regsuc .cons div{
+	width: 100%;
+	position: absolute;
+	left:0;
+	top:8.8rem;
+}
+.X-regsuc .cons div h1{
+	width: 100%;
+	font-size: 0.44rem;
+	color:#ACACAC;
+	text-align: center;
+}
+.X-regsuc .cons div h2{
+	width: 100%;
+	font-size: 0.34rem;
+	color:#ACACAC;
+	text-align: center;
+	margin-top: 0.2rem;
+	font-weight: normal;
+}
+.X-regsuc .cons div img{
+	display: block;
+	width: 3.88rem;
+	height: 1.24rem;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+}
+/*注册成功*/

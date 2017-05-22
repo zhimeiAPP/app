@@ -22,19 +22,39 @@
 <body>
     <div class="top">
         <div class="top-top">
-            <img src="../img/zcy-img/1.png" alt="">
+            <a href="javascript:history.go(-1)">
+                <img src="../img/zcy-img/1.png" alt="" id="go">
+            </a>
             <img src="../img/zcy-img/2.png" alt="">
             <div></div>
         </div>
         <form action="" method="post" class="top-bot">
             <input type="text" name="search" class="search" placeholder="请输入搜索内容">
             <img src="../img/zcy-img/3.png" alt="" class="mkf">
+            <ul id="box">
+                <li>xxxxxxxxxxxxxxxxxx</li>
+            </ul>
         </form>
+    </div>
+    <div id="set" style="width: 100%;height: .45rem"></div>
+    <div class="error">
+        <img src="../img/zcy-img/19.png" alt="">
+    </div>
+    <div class="history">
+        <div class="his-top">
+            <img src="../img/zcy-img/20.png" alt="" style="width: 7rem">
+        </div>
+        <div class="his-bot">
+            <p>男童春装套装2017新款童装</p>
+            <p>夏季童装婴儿短袖套装小童纯棉薄款</p>
+            <p>春装新款卫衣套头</p>
+            <p>儿童内衣套装纯棉男童睡衣全棉女秋衣秋裤家居服</p>
+        </div>
     </div>
     <div class="hot">
         <div class="hot-top">
             <img src="../img/zcy-img/4.png" alt="" style="width: .5rem">
-            <img src="../img/zcy-img/5.png" alt="" style="width: 6.4rem">
+            <img src="../img/zcy-img/13.png" alt="" style="width: 6.4rem">
         </div>
         <div class="hot-bot">
             <img src="../img/zcy-img/6.png" alt="">
@@ -48,7 +68,7 @@
     <div class="topic">
         <div class="topic-top">
             <img src="../img/zcy-img/12.png" alt="" style="width: .55rem;margin-left: .2rem">
-            <img src="../img/zcy-img/13.png" alt="" style="width: 6.4rem">
+            <img src="../img/zcy-img/5.png" alt="" style="width: 6.4rem">
         </div>
         <div class="font">
             <p>潮 · 流 · 女 · 装</p>

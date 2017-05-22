@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.top-top>img:first-child{
+#go{
     width:.55rem;
     margin:-.25rem 0 0 .2rem;
 }
@@ -35,6 +35,21 @@
     padding: 0 .4rem;
     box-sizing: border-box;
 }
+#box{
+    width:100%;
+    height:auto;
+    background: #fff;
+    position: absolute;
+    top:100%;
+    left: 0;
+    overflow: hidden;
+}
+#box>li{
+    height:.8rem;
+    line-height: .8rem;
+    margin-left: .25rem;
+    border-bottom:1px dashed #eee;
+}
 .search{
     width:5.7rem;
     height:.4rem;
@@ -44,6 +59,29 @@
 }
 .mkf{
     width:.26rem;
+}
+.error{
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin:.3rem 0 0;
+
+}
+.error>img{
+    width:7rem;
+}
+.history{
+    margin-top: .3rem;
+}
+.his-top{
+    text-align: center;
+    margin-bottom: .3rem;
+}
+.his-bot>p{
+    font: 200 .22rem/.22rem "微软雅黑";
+    color:#777;
+    margin:0 0 .45rem .25rem;
+
 }
 .hot{
     width:100%;
